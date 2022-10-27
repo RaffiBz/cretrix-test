@@ -1,0 +1,45 @@
+.formContainer{
+    background: #F2F2F7;
+    border-radius: 8px;
+    padding: 16px;
+    display: block;
+    margin-top: 24px;
+}
+
+.formActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    gap: 8px;
+}
+
+.textInput {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background: white;
+    outline: none;
+    border: none;
+}
+
+.dateInput {
+    width: 100%;
+    max-width: 178px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background: white;
+    outline: none;
+    border: none;
+}
+
+.submitButton {
+    background: #3A85F7;
+    width: 100%;
+    max-width: 88px;
+    text-align: center;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}

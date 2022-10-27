@@ -1,0 +1,97 @@
+.dateContainer{
+    background: #F2F2F7;
+    border-radius: 8px;
+    padding: 16px;
+    display: block;
+    margin-top: 24px;
+}
+
+.list {
+    display: grid;
+    grid-column: 1;
+    row-gap: 8px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.titleInput {
+    outline: none;
+    background: none;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.listItem {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    list-style: none;
+    padding: 12px 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.delete {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EB445A;
+}
+
+.striked {
+    text-decoration: line-through;
+}
+
+.normal {
+    text-decoration: none;
+}
+
+.dateRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dateLength {
+    display: flex;
+    gap: 4px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+    rotate: 90deg;
+}
+
+.edit {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A85F7
+}
+
+.cancel {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E8E93
+}
+
+.checkBox{
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+}
+
+button{
+    background: none;
+    border: none;
+}

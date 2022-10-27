@@ -1,0 +1,15 @@
+.listContainer{
+    width: full;
+    max-width: 662px;
+    display: block;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.todoTitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+}
